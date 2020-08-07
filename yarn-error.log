@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\wangergou\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @type/node -D
+
+PATH: 
+  C:\Users\wangergou\bin;D:\软件安装\git\Git\mingw64\bin;D:\软件安装\git\Git\usr\local\bin;D:\软件安装\git\Git\usr\bin;D:\软件安装\git\Git\usr\bin;D:\软件安装\git\Git\mingw64\bin;D:\软件安装\git\Git\usr\bin;C:\Users\wangergou\bin;D:\mycli\sunny-cli\node_modules\.bin;C:\Program Files\Java\jdk-14.0.2\bin;C:\Program Files\Java\jdk-14.0.2\jre\bin;C:\Program Files\flutter\bin；;C:\Program Files\nodejs;D:\install\flutter\bin;C:\Users\wangergou\AppData\Local\Microsoft\WindowsApps;D:\软件安装\vscode\Microsoft VS Code\bin;D:\软件安装\webstrom\WebStorm 2020.1\bin;C:\Users\wangergou\AppData\Roaming\npm;D:\软件安装\git\Git\usr\bin\vendor_perl;D:\软件安装\git\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@type%2fnode: Not found
+      at Request.params.callback [as _callback] (C:\Users\wangergou\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66987:18)
+      at Request.self.callback (C:\Users\wangergou\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140748:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Users\wangergou\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141720:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Users\wangergou\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141642:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1220:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "sunny-cli",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
