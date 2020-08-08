@@ -1,21 +1,28 @@
 {
   "name": "sunny-cli",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "@types/commander": "^2.12.2",
     "@types/node": "^14.0.27"
   },
   "scripts": {
-    "start": "node index.ts "
+    "start": "node index.js "
   },
   "bin": {
-    "sunny": "index.ts"
+    "sunny": "index.js"
   },
   "dependencies": {
+    "chalk": "^4.1.0",
     "commander": "^6.0.0",
     "download-git-repo": "^3.0.2",
+    "global": "^4.4.0",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.3.3",
+    "log-symbols": "^4.0.0",
+    "ora": "^5.0.0",
+    "sunny-cli": "^1.0.0",
     "ts-node": "^8.10.2",
     "ts-node-dev": "^1.0.0-pre.56",
     "typescript": "^3.9.7"
