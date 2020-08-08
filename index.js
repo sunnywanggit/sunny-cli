@@ -9,14 +9,7 @@ const ora = require('ora')
 const chalk = require('chalk')
 const logSymbols = require('log-symbols')
 
-
-
-/*
-sunny init a a-name
-基于 a 模板进行初始化，并为 a 模板起名 a-name
- */
-
-//公用项目模板
+//github 公用项目模板
 const templates = {
     'sunny-a':{
         url:'git@github.com:sunnywanggit/sunny-a.git',
@@ -33,6 +26,10 @@ const templates = {
 program
     .version(`0.1.0`)
 
+/*
+sunny init a a-name
+基于 a 模板进行初始化，并为 a 模板起名 a-name
+ */
 program
     .command(`init <templateName> <projectName>`)
     .description("初始化项目模板")
